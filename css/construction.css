@@ -71,14 +71,6 @@ p {
     margin: 0 auto;
 }
 .navBar {
-    position: fixed;
-    top: 0;
-    width: 800px;
-    overflow: hidden;
-    background-color: white;
-}
-
-.navBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,60 +82,40 @@ p {
     text-decoration: none;
     color: black;
 }
-.intro {
-    border-bottom: 1px dashed black;
-    margin: 15px;
-    margin-top: 100px;
-}
-.intro p {
-    margin: 5px;
-    margin-bottom: 20px;
-}
-.content-Preview {
+.error-Message {
   display: flex;
-  align-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px;
 }
-.content-Preview img {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-  }
-  article {
-      display: flex;
-      flex-direction: column;
-      width: 45%;
-      border-bottom: 1px dashed black;
-      margin: 10px;
-  }
-  .content-Preview h5, p {
-      margin: 10px;
-  }
-  button {
-      width: 150px;
-      background-color: white;
-      border-radius: 10px;
-      padding: 10px;
-      margin: 10px;
-      margin-bottom: 25px;
-  }
-  footer {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: black;
+h2 {
+  font-size: 30px;
+  padding: 15px;
+}
+p {
+  
+}
+.workers img {
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
+  margin: 30px;
+}
+footer {
+  width: 100%;
+  background: black;
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
 }
 
 footer nav a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }

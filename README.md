@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML is providing meaning and structure to our content for ourselves and others to better understand what what is being displayed.
+Semantic HTML is providing meaning and structure to our content for ourselves and others to better understand what what is being displayed, as well as helping screen readers and search engines better communicate our content.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
